@@ -56,3 +56,21 @@ hr {
   padding-top: 0;
 }
 
+.regional-badge-1:active {
+  background-position: right center;
+  border-radius: 100px;
+}
+
+.regional-badge-1:hover {
+  background-position: right center;
+  border-radius: 100px;
+}
+
+.regional-badge-1 {
+  background-image: linear-gradient(to right, #e62243 0%, #c1267d 51%, #e62243 100%);
+  background-size: 200% auto;
+  transition: 0.5s;
+  padding: 0.75rem 1rem;
+  border-radius: 16px;
+}
+

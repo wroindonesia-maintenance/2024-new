@@ -67,6 +67,58 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+.btn-tab-regional:active, .btn-tab-regional:hover, .btn-tab-regional:focus {
+  background-image: none;
+}
+
+@media (min-width: 992px) {
+  .btn-tab-regional:hover {
+    background-image: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-tab-regional:active, .btn-tab-regional:focus {
+    background-image: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-tab-regional.selected {
+    background-image: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-bottom: 2rem;
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    box-shadow: var(--bs-btn-focus-box-shadow);
+  }
+}
+
+.btn-tab-regional {
+  background-image: linear-gradient(to right, #e62243 0%, #c1267d 51%, #e62243 100%);
+  background-size: 200% auto;
+  transition: 0.25s;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: none;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-color: #ec028d;
+  --bs-btn-hover-bg: #070125;
+  --bs-btn-hover-border-color: none;
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #070125;
+  --bs-btn-active-border-color: none;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+  border: none;
+}
+
 .btn-primary {
   background-image: linear-gradient(to right, #e62243 0%, #c1267d 51%, #e62243 100%);
   background-size: 200% auto;
@@ -85,6 +137,25 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-dropdown {
+  transition: 0.5s;
+  --bs-btn-color: rgb(7,1,37);
+  --bs-btn-bg: none;
+  --bs-btn-border-color: #c1267d;
+  --bs-btn-hover-color: rgb(7,1,37);
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-border-color: #161026;
+  --bs-btn-focus-shadow-rgb: #161026;
+  --bs-btn-active-color: rgb(7,1,37);
+  --bs-btn-active-bg: none;
+  --bs-btn-active-border-color: #161026;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-border-width: 2px;
 }
 
 .btn-primary:hover {
@@ -116,6 +187,103 @@
   --bs-gradient: none;
 }
 
+@media (min-width: 992px) {
+  .container-top-regional {
+    padding-bottom: 0rem!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .two-button-border-right {
+    border-right: solid 1px black;
+  }
+}
+
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.dropdown-custom-content {
+  display: none;
+  position: absolute;
+  min-width: 320px;
+  z-index: 1;
+  margin-top: 0.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+}
+
+.dropdown-custom {
+  position: relative;
+}
+
+.dropdown-option:last-child {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.dropdown-option:first-child {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.dropdown-option:hover {
+  background-color: #ddd;
+}
+
+.dropdown-option {
+  display: block;
+  width: 320px;
+  border: none;
+  padding: 0.75rem 0.375rem;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.show-inline {
+  display: inline-block;
+}
+
+.show {
+  display: block;
+}
+
+.button-dropdown-up {
+  display: none;
+}
+
+.hide {
+  display: none!important;
+}
+
+.show-inline-p {
+  display: inline-block!important;
+}
+
+.btn-dropdown-down {
+  display: inline-block;
+}
+
+.btn-dropdown-up {
+  display: inline-block;
+}
+
+.badge-regional {
+  padding: 0.5rem 0.5rem;
+  background-color: #fff;
+  border-radius: 50rem;
+  color: #ec028d;
+  border: 1px solid #c1267d;
+}
+
+.badge-regional > .badge-regional-comingsoon {
+  padding: 0.250rem 0.5rem;
+  color: #fff;
+  border-radius: 100rem;
+  background-image: linear-gradient(to right, #e62243 0%, #c1267d 51%, #e62243 100%);
+  background-size: 200% auto;
+}
 
 .bg-video-mobile {
   display : block;
