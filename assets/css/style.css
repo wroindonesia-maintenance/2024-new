@@ -74,3 +74,22 @@ hr {
   border-radius: 16px;
 }
 
+.medal-silver {
+  color: #fff!important;
+  background-color: rgb(130, 130, 130)!important;
+}
+
+.medal-gold {
+  color: #fff!important;
+  background-color: rgb(151, 129, 3)!important;
+}
+
+.medal-bronze {
+  color: #fff!important;
+  background-color: rgb(75, 60, 26)!important;
+}
+
+.table {
+  vertical-align: middle;
+}
+
